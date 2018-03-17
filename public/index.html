@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh" class="app">
+
+<head>
+    <meta charset="utf-8" />
+    <title>json在线解析</title>
+
+    <meta name="keywords" content="json,json在线解析,json格式化,json格式验证" />
+    <meta name="description" content="json,json在线解析,json格式化,json格式验证" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <link rel="stylesheet" href="css/app.css" type="text/css" />
+
+
+   
+    <!--[if lt IE 9]>
+    <script src="js/ie/html5shiv.js"></script>
+    <script src="js/ie/respond.min.js"></script>
+    <script src="js/ie/excanvas.js"></script>
+  <![endif]-->
+    <style>
+        .left {
+            width: 40%
+        }
+
+        .right {
+            width: 60%
+        }
+        .row{
+            height:100% 
+        }
+     
+    </style>
+</head>
+
+<body class="">
+    <section class='vbox'>
+        <header class="header b-b"></header>
+        <section class='w-f'>
+         <!--    <section class="hbox stretch">
+
+                <aside class="left b-b b-l">
+                    <section class="vbox">
+                        <section>
+                            <textarea style="height:100%" class="form-control" placeholder="在这里输入要format的json"></textarea>
+                        </section>
+                    </section>
+
+                </aside>
+                <aside class="right b-l b-r b-b">
+
+                    <section class="vbox bg-white">
+                        <header class="header b-b"><button class=" btn btn-default btn-sm btn-s-md">格式化</button></header>
+                        <section class="scrollable hover" id="formatResult"></section>
+                    </section>
+                </aside>
+            </section> -->
+            <div class='row bg-white' >
+                <div class='col-lg-4 b-b b-l ' style="height:100%;padding:0px;">
+                    <textarea style="height:100%" id="input" class="form-control" placeholder="在这里输入要format的json"></textarea>
+                </div>
+                <div class='col-lg-8 b-b ' style="height:100%;padding:0px;">
+                    <section class="vbox bg-white" >
+                        <header class="header b-b b-t"><button class=" btn btn-default btn-sm btn-s-md" id="formatBtn">格式化</button></header>
+                        <section class="scrollable hover" id="formatResult">
+        
+                        </section>
+                    </section>
+
+                </div>
+               
+            </div>
+
+
+        </section>
+        <footer class="footer lt hidden-xs b-light"></footer>
+    </section>
+
+</body>
+<script>
+
+</script>
+
+<script src="js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.js"></script>
+<!-- App -->
+<script src="js/app.js"></script>
+<script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="js/app.plugin.js"></script>
+<script src="bundle.js"></script>
+
+</html>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?ab308ed79006a4303286418b887516ff";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
